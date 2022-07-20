@@ -133,33 +133,31 @@ body {
 
 }
 
-.player-button button {
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-
-.player-detail p {
-    margin-left: 10px;
-}
-
-.player-icon span {
-    padding: 0 5px;
-}
-
-.player-icon i {
-    margin-left: 10px;
-}
-
 .players {
     border: 1px solid grey;
     border-radius: 10px;
     width: 312px;
-    height: 362px;
+    height: 242px;
     margin-left: 18px;
     margin-top: 23px;
+    margin-bottom: 2px;
+}
 
+.player-image {
+    margin-left: 40px;
+    margin-top: 40px;
+}
 
+#vs {
+    padding: 0 5px;
+}
+
+.player-detail {
+    margin-left: 80px;
+}
+
+.player-icon {
+    margin-left: 80px;
 }
 
 /* footer-section */
