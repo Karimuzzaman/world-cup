@@ -38,11 +38,18 @@ body {
 
 .first-div a {
     text-decoration: none;
-    background-image: linear-gradient(red, red);
+    background-image: linear-gradient(red, lightblue);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
+
+}
+
+/* hilight-link */
+#first-link:hover {
+    font-size: 1.5em;
+    color: deeppink;
 
 }
 
@@ -129,6 +136,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
+    margin-top: 40px;
 
 }
 
@@ -157,6 +165,19 @@ body {
 
 .match-icon {
     margin-left: 80px;
+}
+
+/* third-section */
+
+
+.View {
+    text-decoration: none;
+    border: 1px solid red;
+    margin-left: 50%;
+    padding: 15px 20px;
+    background-color: red;
+    color: white;
+    visibility: hidden;
 }
 
 /* footer-section */

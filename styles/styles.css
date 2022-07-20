@@ -43,11 +43,19 @@ body {
 
 .first-div a {
     text-decoration: none;
-    background-image: linear-gradient(red, red);
+    background-image: linear-gradient(red, lightblue);
     padding: 15px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
+
+}
+
+/* hilight-link */
+
+#first-link:hover {
+    font-size: 1.5em;
+    color: deeppink;
 
 }
 
@@ -184,6 +192,19 @@ body {
 
 }
 
+/* third-section */
+
+
+.View {
+    text-decoration: none;
+    border: 1px solid red;
+    margin-left: 50%;
+    padding: 15px 20px;
+    background-color: red;
+    color: white;
+    visibility: hidden;
+}
+
 /* footer-section */
 footer {
     width: 100%;
@@ -267,6 +288,10 @@ footer hr {
         margin-left: 155px;
     }
 
+    .View {
+        visibility: hidden;
+    }
+
     #one {
         display: block;
     }
@@ -319,6 +344,11 @@ footer hr {
         background-color: red;
 
         color: white;
+    }
+
+    .View {
+        visibility: visible;
+
     }
 
     footer {
