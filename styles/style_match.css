@@ -7,22 +7,20 @@ body {
 
 .parent {
     display: flex;
+    border: 1px solid #161616;
     width: 1321px;
     height: 646px;
-    background: #161616;
-    border-radius: 30px;
     margin-top: 50px;
     margin-left: 140px;
-    margin-right: 139px;
+    background-color: #161616;
+    border-radius: 30px;
 }
 
 .first-div {
-    width: 531px;
-    height: 424px;
-    border: 1px solid 161616;
-    margin-top: 161px;
-    margin-left: 246px;
-    background: #161616;
+    margin-top: 100px;
+    margin-left: 150px;
+    border: 1px solid #161616;
+    background-color: #161616;
     color: white;
 }
 
@@ -48,14 +46,15 @@ body {
 
 }
 
-.first-image {
-    width: 531px;
-    height: 424px;
-    border: 1px solid #161616;
-    margin-top: 161px;
-    margin-right: 246px;
-    background: #161616;
+.first-image img {
+    width: 581px;
+    height: 613px;
+    margin-left: 20px;
 
+}
+
+.fa-greater-than {
+    padding: 0 5px;
 }
 
 /* second-section */
@@ -162,8 +161,8 @@ body {
 
 /* footer-section */
 footer {
-    width: 1600px;
-    height: 444px;
+    width: 100%;
+    height: 100%;
     background: #161616;
     font-size: 40px;
     font-weight: 600;
